@@ -18,7 +18,7 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_channel_access_token = 'FT9zaPscYQJbAQtWq4bHl1iM4Kpx7tHthvQZn4KcCj4eta1Nfq0T+jBpYxGtxPtrRrj3/GD6QLDCQxThjS52itajTMpnvsnJzRwuMj9xivIQIN1fkIEslMimIRNnyXF/heI7MCcCtpCNcbD2Y4EDewdB04t89/1O/w1cDnyilFU='
+line_channel_access_token = '+KFVmAgqGF06XRdrtHTUwKXZfdZ3EOsXWoX3mliWdQrxSA5xph14V4a9M1Ji+KBtoPtdZDwl9ivMmw5nZC0GlP7du75Via+7Ei1RYzQIZmgU8mklQhTMb2bus3cHSbtMX+gJqBpuyMpGKk3djismMwdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(line_channel_access_token)
 Authorization = "Bearer {}".format(line_channel_access_token)
 
@@ -90,7 +90,14 @@ def reply_menu(reply_token):
             "text": "energy"
           }
         ]
-      }
+      },
+              "thumbnailImageUrl": "https://m.media-amazon.com/images/M/MV5BYWU4YjAzNzctMmUzZi00MTliLWE2MGEtZWIwODdiMWE4ZjlkXkEyXkFqcGdeQXVyMjA4OTI5NDQ@._V1_.jpg",
+              "text": "booty",
+              "actions": [
+                {
+                  "type": "message",
+                  "label": "booty",
+                  "text": "booty"
     ]
   }
 }]
